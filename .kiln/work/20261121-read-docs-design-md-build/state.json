@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "id": "20261121-read-docs-design-md-build",
+  "status": "reviewed",
+  "session_id": "cdd78214-5a99-4cbe-90e3-d30ccc430cc9",
+  "path": "full",
+  "type": "feat",
+  "auto": false,
+  "stage": "SHIP",
+  "step": null,
+  "gates": {
+    "spec": {
+      "decision": "approved",
+      "artifact_sha": "f48a4ba56d4b970d9d5e8d6025f73e05f97e4596776e68cd832c3a109682cab8",
+      "answer": "ruled by auto mode, not by the user",
+      "by": "auto",
+      "at": "2026-11-21T06:20:10.443Z"
+    },
+    "plan": {
+      "decision": "approved",
+      "artifact_sha": "8effb647651b3cf3f30c17742d80c41456781e5b984fc6962f14be39b8d22d4a",
+      "answer": "ruled by auto mode, not by the user",
+      "by": "auto",
+      "at": "2026-11-21T06:22:42.071Z"
+    },
+    "review": {
+      "decision": "approved",
+      "artifact_sha": "5ef610498b1c665de95c0b41f35e40a81f814b7ff297785aa3c23eacfc941946",
+      "answer": "ruled by auto mode, not by the user",
+      "by": "auto",
+      "at": "2026-11-21T06:42:44.871Z"
+    },
+    "ship": {
+      "decision": "approved",
+      "artifact_sha": "5ef610498b1c665de95c0b41f35e40a81f814b7ff297785aa3c23eacfc941946",
+      "answer": "ruled by auto mode, not by the user",
+      "by": "auto",
+      "at": "2026-11-21T06:43:31.538Z"
+    }
+  },
+  "predicted": [
+    {
+      "path": "Cargo.toml"
+    },
+    {
+      "path": "Cargo.lock"
+    },
+    {
+      "path": ".gitignore"
+    },
+    {
+      "path": "src/main.rs"
+    },
+    {
+      "path": "src/json.rs"
+    },
+    {
+      "path": "src/hotkey.rs"
+    },
+    {
+      "path": "src/config.rs"
+    },
+    {
+      "path": "src/gemini.rs"
+    },
+    {
+      "path": "src/guard.rs"
+    },
+    {
+      "path": "src/rewrite.rs"
+    },
+    {
+      "path": "src/tray.rs"
+    },
+    {
+      "path": "src/autostart.rs"
+    },
+    {
+      "path": "README.md"
+    }
+  ],
+  "base": "5f95556ed26dde743167b744680883263d92eb29",
+  "last_verified": "5f95556ed26dde743167b744680883263d92eb29",
+  "dirty_at_open": [
+    ".gitignore"
+  ],
+  "verify": [
+    {
+      "id": "unit",
+      "cmd": "$HOME/.cargo/bin/cargo test && $HOME/.cargo/bin/cargo check --target x86_64-pc-windows-gnu",
+      "exit": 101,
+      "ms": 22,
+      "range": "5f95556ed26dde743167b744680883263d92eb29..5f95556ed26dde743167b744680883263d92eb29",
+      "phase": "full",
+      "tree": "c43365690f6abc6963341bf6896a3a570aee30fe"
+    },
+    {
+      "id": "unit",
+      "cmd": "$HOME/.cargo/bin/cargo test && $HOME/.cargo/bin/cargo check --target x86_64-pc-windows-gnu",
+      "exit": 0,
+      "ms": 101,
+      "range": "5f95556ed26dde743167b744680883263d92eb29..5f95556ed26dde743167b744680883263d92eb29",
+      "phase": "full",
+      "tree": "ed38f66eacfc92c297601b32d6bfd11b2127d8a5"
+    },
+    {
+      "id": "unit",
+      "cmd": "$HOME/.cargo/bin/cargo test && $HOME/.cargo/bin/cargo check --target x86_64-pc-windows-gnu",
+      "exit": 0,
+      "ms": 138,
+      "range": "5f95556ed26dde743167b744680883263d92eb29..5f95556ed26dde743167b744680883263d92eb29",
+      "phase": "full",
+      "tree": "cd5d682bb6b56023dfb92904c34d2a0e3d266337"
+    },
+    {
+      "id": "unit",
+      "cmd": "$HOME/.cargo/bin/cargo test && $HOME/.cargo/bin/cargo check --target x86_64-pc-windows-gnu",
+      "exit": 0,
+      "ms": 172,
+      "range": "5f95556ed26dde743167b744680883263d92eb29..5f95556ed26dde743167b744680883263d92eb29",
+      "phase": "full",
+      "tree": "8dfaf5a27fc2218321e9b0d88cce94c7d2abc8da"
+    },
+    {
+      "id": "unit",
+      "cmd": "$HOME/.cargo/bin/cargo test && $HOME/.cargo/bin/cargo check --target x86_64-pc-windows-gnu",
+      "exit": 0,
+      "ms": 132,
+      "range": "5f95556ed26dde743167b744680883263d92eb29..5f95556ed26dde743167b744680883263d92eb29",
+      "phase": "full",
+      "tree": "6915f6c00481fe57dfa51f6add88ad349922d78b"
+    },
+    {
+      "id": "unit",
+      "cmd": "$HOME/.cargo/bin/cargo test && $HOME/.cargo/bin/cargo check --target x86_64-pc-windows-gnu",
+      "exit": 0,
+      "ms": 274,
+      "range": "5f95556ed26dde743167b744680883263d92eb29..5f95556ed26dde743167b744680883263d92eb29",
+      "phase": "full",
+      "tree": "1b8b97946c3688d87df495962c2a391108a42ac2"
+    },
+    {
+      "id": "unit",
+      "cmd": "$HOME/.cargo/bin/cargo test && $HOME/.cargo/bin/cargo check --target x86_64-pc-windows-gnu",
+      "exit": 0,
+      "ms": 330,
+      "range": "5f95556ed26dde743167b744680883263d92eb29..5f95556ed26dde743167b744680883263d92eb29",
+      "phase": "full",
+      "tree": "5456de0d614264d3d74f3618ae9928a035214b2c"
+    },
+    {
+      "id": "unit",
+      "cmd": "$HOME/.cargo/bin/cargo test && $HOME/.cargo/bin/cargo check --target x86_64-pc-windows-gnu",
+      "exit": 0,
+      "ms": 168,
+      "range": "5f95556ed26dde743167b744680883263d92eb29..5f95556ed26dde743167b744680883263d92eb29",
+      "phase": "full",
+      "tree": "6f9b5c5a97ba19a316119169cc704a967838b40b"
+    },
+    {
+      "id": "unit",
+      "cmd": "$HOME/.cargo/bin/cargo test && $HOME/.cargo/bin/cargo check --target x86_64-pc-windows-gnu",
+      "exit": 0,
+      "ms": 67,
+      "range": "5f95556ed26dde743167b744680883263d92eb29..5f95556ed26dde743167b744680883263d92eb29",
+      "phase": "full",
+      "tree": "2671c95b7695e04b0df5557cf1c7035698e595a1"
+    },
+    {
+      "id": "unit",
+      "cmd": "$HOME/.cargo/bin/cargo test && $HOME/.cargo/bin/cargo check --target x86_64-pc-windows-gnu",
+      "exit": 0,
+      "ms": 74,
+      "range": "5f95556ed26dde743167b744680883263d92eb29..5f95556ed26dde743167b744680883263d92eb29",
+      "phase": "full",
+      "tree": "2671c95b7695e04b0df5557cf1c7035698e595a1"
+    }
+  ],
+  "pass": 1,
+  "carry_over": [
+    {
+      "from_pass": 1,
+      "kind": "blocking_unknown",
+      "text": "baseline full verify fails: no Cargo.toml exists yet (empty repo); Task 1 creates it"
+    },
+    {
+      "from_pass": 1,
+      "kind": "resume",
+      "text": "Fix it in this work: Task 1 creates Cargo.toml"
+    }
+  ],
+  "displaced": [],
+  "rules": [
+    {
+      "stage": "plan",
+      "files": []
+    },
+    {
+      "stage": "review",
+      "files": []
+    }
+  ],
+  "knowledge": [
+    {
+      "tier": 0,
+      "terms": [
+        "rewrite",
+        "hotkey",
+        "clipboard",
+        "gemini"
+      ],
+      "files": [
+        "docs/design.md"
+      ]
+    }
+  ],
+  "practices": [
+    {
+      "stage": "investigate",
+      "ids": [
+        "interview-me",
+        "spec-driven-development"
+      ]
+    },
+    {
+      "stage": "plan",
+      "ids": [
+        "planning-and-task-breakdown",
+        "api-and-interface-design",
+        "documentation-and-adrs",
+        "observability-and-instrumentation",
+        "threat-model",
+        "frontend-ui-engineering",
+        "accessibility-checklist"
+      ]
+    },
+    {
+      "stage": "implement",
+      "ids": [
+        "incremental-implementation",
+        "test-driven-development",
+        "source-driven-development",
+        "doubt-driven-development",
+        "browser-testing-with-devtools"
+      ]
+    },
+    {
+      "stage": "review",
+      "ids": [
+        "reviewer",
+        "blind-hunter",
+        "edge-case-hunter",
+        "verification-gap",
+        "intent-alignment",
+        "code-review-specialist",
+        "security-auditor",
+        "test-engineer",
+        "performance"
+      ]
+    },
+    {
+      "stage": "ship",
+      "ids": [
+        "git-workflow-and-versioning",
+        "shipping-and-launch"
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "name": "task/0",
+      "commits": {
+        ".": "1f04860454cb25b0f3f8a05969d332668980b236"
+      },
+      "at": "2026-11-21T06:22:42.105Z"
+    },
+    {
+      "name": "task/1",
+      "commits": {
+        ".": "e1f8cfb6b9fe6924c80d63586ecc7670505d8def"
+      },
+      "at": "2026-11-21T06:28:43.244Z"
+    },
+    {
+      "name": "task/2",
+      "commits": {
+        ".": "b8f902639e7d620039a1d1a290774486ff4bd4c4"
+      },
+      "at": "2026-11-21T06:29:10.126Z"
+    },
+    {
+      "name": "task/3",
+      "commits": {
+        ".": "d61eec24c745086b15efd5dbb6d759d6ff541342"
+      },
+      "at": "2026-11-21T06:30:01.926Z"
+    },
+    {
+      "name": "task/4",
+      "commits": {
+        ".": "01373c190195bda24afc3b66e08f9088c240d1a1"
+      },
+      "at": "2026-11-21T06:30:47.951Z"
+    },
+    {
+      "name": "task/5",
+      "commits": {
+        ".": "f2370c9b6f2f299c79be48dc2d83d18fabe82e4f"
+      },
+      "at": "2026-11-21T06:32:07.240Z"
+    },
+    {
+      "name": "task/6",
+      "commits": {
+        ".": "8c79e0493402b2ec38c21ba468d8de7562972bd5"
+      },
+      "at": "2026-11-21T06:34:54.013Z"
+    }
+  ],
+  "baseline": {
+    "step": "unit",
+    "exit": 101,
+    "unreadable": true
+  },
+  "checklist": []
+}
